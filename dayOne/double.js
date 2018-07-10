@@ -5,5 +5,4 @@ function double(array) {
   }
   return result;
 }
-
-console.log(double([1, 2, 3, 4]), "return [2, 4, 6, 8]");
+module.exports = double;

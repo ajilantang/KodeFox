@@ -5,5 +5,4 @@ function map(array, fn) {
   }
   return result;
 }
-
-console.log(map([1, 2, 3], num => num + 2));
+module.exports = map;

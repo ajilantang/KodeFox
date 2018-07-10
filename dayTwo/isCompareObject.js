@@ -20,7 +20,6 @@ function isEqual(a, b) {
   else if (typeof a === "object") {
     return isObjectCompare(a, b);
   }
-  return false;
 }
 
 function isCompareArray(arrayOne, arrayTwo) {
@@ -48,4 +47,4 @@ let isObjectCompare = (objectOne, objectTwo) => {
 };
 
 let isPrimitifCompare = (a, b) => a === b;
-module.exports = isEqual;
+module.exports = isObjectCompare;

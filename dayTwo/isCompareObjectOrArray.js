@@ -20,6 +20,7 @@ function isEqual(a, b) {
   else if (typeof a === "object") {
     return isObjectCompare(a, b);
   }
+
   return false;
 }
 
